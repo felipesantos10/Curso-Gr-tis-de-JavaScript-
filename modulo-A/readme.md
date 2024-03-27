@@ -5,21 +5,21 @@
 # Notas da aula - Modulo A 
 
 ## Cliente x Servidor
-- Cliente: O cliente é geralmente um navegador web (como Google Chrome, Firefox, Safari, etc.) que executa em um dispositivo do usuário (como um computador, smartphone, tablet, etc.). O cliente faz solicitações ao servidor, geralmente para recursos como páginas da web, scripts, imagens, etc. Essas solicitações são feitas através do protocolo HTTP (Hypertext Transfer Protocol).
+- **Cliente:** O cliente é geralmente um navegador web (como Google Chrome, Firefox, Safari, etc.) que executa em um dispositivo do usuário (como um computador, smartphone, tablet, etc.). O cliente faz solicitações ao servidor, geralmente para recursos como páginas da web, scripts, imagens, etc. Essas solicitações são feitas através do protocolo HTTP (Hypertext Transfer Protocol).
 
-- Servidor: O servidor é um computador ou sistema que hospeda um aplicativo da web e responde às solicitações do cliente. Quando o servidor recebe uma solicitação do cliente, ele processa essa solicitação e envia uma resposta de volta ao cliente. A resposta pode ser uma página da web, um arquivo, dados de um banco de dados, etc.
+- **Servidor:** O servidor é um computador ou sistema que hospeda um aplicativo da web e responde às solicitações do cliente. Quando o servidor recebe uma solicitação do cliente, ele processa essa solicitação e envia uma resposta de volta ao cliente. A resposta pode ser uma página da web, um arquivo, dados de um banco de dados, etc.
 
 ## Protocolo HTTP
 
-- HTTP, que significa Protocolo de Transferência de Hipertexto, é um protocolo de comunicação que permite a transferência de informações na World Wide Web (WWW) e em outros sistemas de rede1.
+- HTTP, que significa Protocolo de Transferência de Hipertexto, é um protocolo de comunicação que permite a transferência de informações na World Wide Web (WWW) e em outros sistemas de rede.
 
 Aqui estão alguns pontos importantes sobre o HTTP:
 
-- Requisições e Respostas: O HTTP é um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo cliente, geralmente um navegador da Web. Cada requisição individual é enviada para um servidor, que irá lidar com ela e fornecer um resultado, chamado de resposta2.
-- Métodos HTTP: Existem vários métodos HTTP, como GET, POST, PUT, DELETE, etc. Cada um desses métodos informa ao servidor que tipo de ação o cliente deseja realizar.
-- Estado sem conexão: O HTTP é um protocolo sem estado, o que significa que cada requisição é processada independentemente das outras. O servidor não mantém nenhuma informação sobre as requisições anteriores do cliente.
-- Mensagens HTTP: As mensagens HTTP consistem em uma linha de solicitação, cabeçalhos e um corpo. A linha de solicitação e os cabeçalhos contêm informações sobre a requisição ou resposta, enquanto o corpo contém os dados reais (como o HTML de uma página da web).
-- HTTP e HTTPS: HTTP e HTTPS são essencialmente o mesmo protocolo, mas o HTTPS usa criptografia para proteger os dados transmitidos entre o cliente e o servidor. Isso torna o HTTPS mais seguro, mas também um pouco mais lento do que o HTTP.
+- **Requisições e Respostas:** O HTTP é um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo cliente, geralmente um navegador da Web. Cada requisição individual é enviada para um servidor, que irá lidar com ela e fornecer um resultado, chamado de resposta2.
+- **Métodos HTTP:** Existem vários métodos HTTP, como GET, POST, PUT, DELETE, etc. Cada um desses métodos informa ao servidor que tipo de ação o cliente deseja realizar.
+- **Estado sem conexão:** O HTTP é um protocolo sem estado, o que significa que cada requisição é processada independentemente das outras. O servidor não mantém nenhuma informação sobre as requisições anteriores do cliente.
+- **Mensagens HTTP:** As mensagens HTTP consistem em uma linha de solicitação, cabeçalhos e um corpo. A linha de solicitação e os cabeçalhos contêm informações sobre a requisição ou resposta, enquanto o corpo contém os dados reais (como o HTML de uma página da web).
+- **HTTP e HTTPS:** HTTP e HTTPS são essencialmente o mesmo protocolo, mas o HTTPS usa criptografia para proteger os dados transmitidos entre o cliente e o servidor. Isso torna o HTTPS mais seguro, mas também um pouco mais lento do que o HTTP.
 
 ## Metodos HTTP
 - **GET:** O método GET é usado para solicitar a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados.
