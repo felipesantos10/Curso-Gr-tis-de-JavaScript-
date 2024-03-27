@@ -35,3 +35,7 @@ Aqui estão alguns pontos importantes sobre o HTTP:
 
 - JavaScript: Por fim, temos o JavaScript, uma linguagem de programação que permite adicionar interatividade e dinamismo a uma página web. Com o JavaScript, é possível criar efeitos visuais, validar formulários, realizar chamadas assíncronas ao servidor e muito mais.
 
+## Frameworks JavaScript
+React, React Native, Angular, Vue Js, Node Js entre outros
+
+
