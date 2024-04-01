@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tratamento de dados</title>
 </head>
 <body>
-    
+    <script>
+        // Formantando Strings
+
+       var nome = window.prompt("Qual o seu nome? ")
+       document.write(`Seu nome <strong>${nome}</strong> tem ${nome.length} letras <br/>`) // Quantas letras tem o caracteres.
+       document.write(`Seu nome em maiscula é ${nome.toUpperCase()} <br/>`) // colocar em Maiusculas.
+       document.write(`Seu nome em minuscula é ${nome.toLowerCase()} <br/>`) // coloca em Minusculas.
+    </script>
 </body>
 </html>
