@@ -9,7 +9,7 @@
 
 
 ### Variaveis
-Variáveis em programação são espaços de memória que armazenam valores. Elas são como caixas que você pode usar para guardar coisas. Cada variável tem um nome único (chamado de identificador) que é usado para acessar o valor armazenado nessa variável.
+Variáveis em programação são espaços de memória que **armazenam valores**. Elas são como caixas que você pode usar para guardar coisas. Cada variável tem um nome único (chamado de identificador) que é usado para acessar o valor armazenado nessa variável.
 
 ### Identificadores em JavaScript
 
