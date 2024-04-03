@@ -39,4 +39,6 @@ var e let são ambos usados para declarar variáveis em JavaScript, mas eles tê
 - undefined
 - object
     - Array
-- function
+- function 
+
+ 
