@@ -9,10 +9,9 @@
 
 
 ### Variaveis
-Variáveis em programação são espaços de memória que **armazenam valores**. Elas são como caixas que você pode usar para guardar coisas. Cada variável tem um nome único (chamado de identificador) que é usado para acessar o valor armazenado nessa variável.
+Variáveis em programação são espaços de memória que **armazenam valores**. Elas são como caixas que você pode usar para guardar coisas. Cada **variável tem um nome único (chamado de identificador)** que é usado para acessar o valor armazenado nessa variável.
 
 ### Identificadores em JavaScript
-
 - Podem começar com **letra**, **$** ou **_**
 - Não podem começar com **números**
 - É possivel usar **letras** ou **números**
@@ -29,3 +28,15 @@ var e let são ambos usados para declarar variáveis em JavaScript, mas eles tê
 
 - **Escopo**: var é escopo de função enquanto let é escopo de bloco. Isso significa que uma variável declarada com var está disponível dentro da função onde foi declarada. Por outro lado, let limita a visibilidade da variável ao bloco, declaração ou expressão onde foi declarada.
 - **Hoisting**: Ambas as declarações var e let são içadas (hoisted) para o topo de seu escopo. Mas enquanto var será inicializado como undefined, let não será inicializado. Isso significa que uma variável let só pode ser usada depois de ser declarada, caso contrário, um erro será lançado.
+
+### Tipos de dados
+- number
+    - infinity
+    - NaN
+- string
+- boolean( true or flase)
+- null
+- undefined
+- object
+    - Array
+- function
