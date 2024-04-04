@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo o DOM</title>
+    <style> 
+        body{
+            background: blue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: White;
+        }
+        
+    </style>
+</head>
+<body>
+     <h1>Entendendo o DOM</h1>
+     <p>Aqui vai o resultado</p>
+     <p>Aprendendo a usar o <strong>Dom</strong> em Javascript</p>
+     <div name ="smg">Clique aqui</div>
+
+     <script>
+       var p1 = document.getElementsByTagName('p')[0] // selecionando o elemento por marca
+       // window.document.write(`Esta escrito assim:  "${p1.innerText}" ` )
+         var d = window.document.getElementsByName('smg')[0]
+         d.innerText = 'Olá, Mundo!'
+       
+       /*
+       var d = window.document.getElementById('smg')
+       d.style.background ='black'
+       d.innerText = "Estou aguardando..."
+       */
+     </script>
+</body>
+</html>
