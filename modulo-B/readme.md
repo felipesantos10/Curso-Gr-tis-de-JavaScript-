@@ -41,4 +41,21 @@ var e let são ambos usados para declarar variáveis em JavaScript, mas eles tê
     - Array
 - function 
 
+### Tipos de Operadores
+ - Aritméticos
+ - Atribuição
+ - Relacionais
+    - > , < , >=, <=, == ,!=
+ - Lógicos
+    - ! ( negação) NÃO ex. "Quero uma caneta mas não pode ser azul"
+    - && (conjução) E  ex. "Quero uma caneta azul e vermelha"
+    - || (disjunção) ou  ex.  "quero uma caneta azul ou vermelha"var
+ - Ternário
+    - ? : exemplo. media >=7 ?
+
+ ### Ordem de precedência
+ - Aritmeticos
+ - Relacionais
+ - Logicos(não, e, ou)
+
  
